@@ -8,4 +8,7 @@
     <string name="dial_log_message">Tidak dapat menyelesaikan aplikasi untuk Maksud ACTION_DIAL.</string>
     <string name="action_language">Bahasa</string>
     <string name="expired_label">Tanggal kadaluarsa:</string>
+    <string name="price_per_item_label">Harga per item:</string>
+    <string name="btn_submit">Kirim</string>
+    <string name="price_100_pax_label">Harga 100 pax:</string>
 </resources>
