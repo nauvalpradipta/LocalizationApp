@@ -55,11 +55,9 @@ public class MainActivity extends AppCompatActivity {
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Buat edit text yang berupa string diubah menjadi integer dengan parseInt agar bisa dioperasikan mtk
                 int price = Integer.parseInt(inputPrice.getText().toString());
                 int totalPrice = price * 100;
 
-                // Untuk menentukan price sesuai bahasa
                 String formatPrice = NumberFormat.getCurrencyInstance().format(totalPrice);
                 priceTotal.setText(formatPrice);
             }
