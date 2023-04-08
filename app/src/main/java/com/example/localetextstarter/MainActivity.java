@@ -55,9 +55,11 @@ public class MainActivity extends AppCompatActivity {
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //mengubah menjadi integer
                 int price = Integer.parseInt(inputPrice.getText().toString());
                 int totalPrice = price * 100;
 
+                //menentukan mata uang sesuai negara
                 String formatPrice = NumberFormat.getCurrencyInstance().format(totalPrice);
                 priceTotal.setText(formatPrice);
             }
